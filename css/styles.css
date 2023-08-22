@@ -1,0 +1,162 @@
+/*NAVIGATION BAR*/
+body{
+    
+    background-color:#F9F9F9 ;
+    text-align: center;
+    margin:0%;
+    padding-bottom: 0%;
+}
+h1{
+    font-size:6rem;
+    font-family: 'Monserrat';
+}
+
+h3{
+    text-align: center;
+    font-family: Ubuntu;
+    padding:1.5%;
+}
+.container-fluid{
+    background-position: center;
+    background-size:cover;
+    background-image: url('https://media4.giphy.com/media/BHNfhgU63qrks/giphy.gif?cid=ecf05e47s0vi3n4uyu2gxwo86mrddg2dcetnixu5qsq5aojb&ep=v1_gifs_search&rid=giphy.gif&ct=g');
+}
+.btn-bg-grad{
+    background-position: center;
+    background-size:cover;
+    background-image:url('https://i.giphy.com/media/2tNvsKkc0qFdNhJmKk/giphy.webp');
+}
+.hand-fist-beat,.site-name{
+    font-size: 3rem;
+}
+.brand-name{
+    --fa-beat-fade-opacity: 1.25; --fa-beat-fade-scale: 1.25;
+    --fa-animation-duration: 120s;
+    padding:2%;
+}
+.brand-name:hover{
+    --fa-animation-duration: 4s;
+    --fa-fade-opacity: 0.6;
+}
+.navbar-nav{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-item{
+    color:white;
+    font-size: 1.5rem;
+}
+/*TITLE*/
+
+.heading-main{
+    padding:10%;
+    text-align: center;
+    color:whitesmoke;
+}
+/*Search Bar*/
+#search-bar-zone{
+    padding:5% 10%;
+    background-color: #F9F9F9;
+}               
+.search-text-heading{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    padding:3%;
+}
+.search-type-bar,.platform-selection{
+    padding:3%;
+}
+.choose-platform{
+    text-align: left;
+}
+.btn-bg-grad{
+    width:16%;
+}
+.social-media-handle{
+    width:100%;
+}
+/*Pricing*/
+.price-header{
+    font-size: 1.5rem;
+    background-position: center;
+    background-size:cover;
+    background-image:url('https://i.giphy.com/media/2tNvsKkc0qFdNhJmKk/giphy.webp');
+}
+.price-heading{
+    color:#002244;
+    font-size: 3rem;
+    padding-bottom: 2%;
+    font-family:'Monserrat';
+}
+.card{
+    border-width: 6px;
+    border-color: black;
+}
+#pricing{
+    padding-bottom: 2%;
+}
+.tagged{
+    padding:0% 3% 0%;
+}
+.card-header{
+    font-size: 2.5rem;
+    text-align: center;
+    text-decoration: solid;
+    border-width:auto auto 6px;
+}
+.premium{
+    background-size:cover;
+    background-position:center;
+    background-image:url('https://media0.giphy.com/media/8w61HSu6xQjoa2NzKN/200w.webp?cid=ecf05e471m84nw9my6k2wutnpkx40c1ax7ojy8jbbsodeou5&ep=v1_gifs_search&rid=200w.webp&ct=g');
+}
+.Gold{
+    background-size:cover;
+    background-position:center;
+    background-image:url('https://img.freepik.com/free-vector/gradient-golden-linear-background_52683-62246.jpg?w=1380&t=st=1692668640~exp=1692669240~hmac=ce84e8384a1b9e5c87b39ff3eb3555b7079642155b060409de4d97f0b0705f6e');
+}
+.card-bd{
+    height:254px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: aliceblue;
+}
+/*.card-body{
+background-image: url('https://i.giphy.com/media/2tNvsKkc0qFdNhJmKk/giphy.webp');
+}*/
+.regular{
+    background-color: rgb(119, 110, 110);
+}
+.pricing-btn{
+    color: aliceblue;
+}
+/*Footer*/
+#footer {
+   
+    color: #8f8f8f;
+    font-size: 0.75rem;
+    font-family: "Montserrat-Light", sans-serif;
+    text-align: center;
+    
+}
+.footer-contact-links1{
+    background-position: center;
+    background-size:cover;
+    background-image:url('https://i.giphy.com/media/2tNvsKkc0qFdNhJmKk/giphy.webp');
+}
+.footer-contact-links{
+    display:flex;
+    width:60%;
+    padding-top:2%;
+    padding-bottom:2%;
+    margin: auto;
+    justify-content: space-around;
+}
+.footer-link{
+    font-size:1.75rem;
+}
+.contact{    color:#002244;
+
+
+}
