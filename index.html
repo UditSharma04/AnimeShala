@@ -33,8 +33,13 @@
             <!-- Nav Bar -->
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="brand-name fa-beat-fade">
-                    <i class="fa-classic fa-hand-back-fist hand-fist-beat" style="color: #04365d;"></i>
-                    <a class="navbar-brand site-name" href="">AnimeShala</a>
+                    <!-- <i class="fa-classic fa-hand-back-fist hand-fist-beat" style="color: #04365d;"></i> -->
+                    <div class="container">
+                        <a class="navbar-brand" href="#">
+                          <img src="images\logo_transparent.png" alt="AnimeShala" width="100" height="100">
+                        </a>
+                      </div>
+                    <!-- <a class="navbar-brand site-name text-align-center" href="">AnimeShala</a> -->
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -44,10 +49,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#footer">Contact</a>
+                            <a class="nav-link" href="#search-bar-zone">Read Manga</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#pricing">Pricing</a>
+                            <a class="nav-link" href="#pricing">Membership</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#search-bar-zone">Search</a>
@@ -59,60 +64,55 @@
                 </div>
             </nav>
             <div class="heading-main">
-                <h1>We search whatever you want, wherever you want.</h1>
+                <h1>Hey , did you watch that new anime ?</h1>
             </div>
         </div>
     </section>
     <section id="search-bar-zone">
+        <form action="https://zoro.bz/filter?">
         <div class="search-type-bar">
-            <h2 class="search-text-heading">Type your search here.</h2>
+            <h2 class="search-text-heading">Just type in a word , and let the magic begin</h2>
             <div class="row">
-                <div class="col-lg-4 col-md-12">
+                <div class="col">
                     <div class="input-group ">
-                        <input type="text" class="form-control" placeholder="search-word"
-                            aria-label="search-word with two button addons">
-                        <button class="btn btn-outline-secondary btn-bg-grad" type="button">None</button>
-                        <button class="btn btn-outline-secondary btn-bg-grad" type="button">OK</button>
+                        <input type="text" class="form-control" placeholder="Search Anime"
+                            aria-label="search-word with two button addons" name="keyword">
+                        <button class="btn btn-outline-secondary" type="submitW">Search</button>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12">
+                <div class="col">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="search-word"
+                        <input type="text" class="form-control" placeholder="Search Manga"
                             aria-label="search-word with two button addons">
-                        <button class="btn btn-outline-secondary btn-bg-grad" type="button">None</button>
-                        <button class="btn btn-outline-secondary btn-bg-grad" type="button">OK</button>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="search-word"
-                            aria-label="search-word with two button addons">
-                        <button class="btn btn-outline-secondary btn-bg-grad" type="button">None</button>
-                        <button class="btn btn-outline-secondary btn-bg-grad" type="button">OK</button>
+                        <button class="btn btn-outline-secondary" type="button">Search</button>
                     </div>
                 </div>
             </div>
         </div>
+    </form>
         <div class="platform-selection">
             <h3 class="choose-platform">Choose Platform:</h3></a>
             <div class="socials">
                 <div class="row">
                     <div class="col-4 ">
                         <div class="social-media-handle">
-                            <a class="search-link" href=""><i class="fa-brands fa-facebook fa-4x"
-                                    style="color: #1877f2;"></i></a>
+                            <a class="search-link" href="https://zoro.bz/home">
+                                <img src="https://is3-ssl.mzstatic.com/image/thumb/Purple112/v4/7e/91/00/7e9100ee-2b62-0942-4cdc-e9b93252ce1c/source/512x512bb.jpg" height="50x" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="col-4">
                         <div class="social-media-handle">
-                            <a class="search-link" href=""><i class="fa-brands fa-linkedin fa-4x"
-                                    style="color: #0a66c2;"></i></a>
+                            <a class="search-link" href="https://9animes.ph/">
+                                <img src="data:image/jpeg;base64,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" height="55px">
+                            </a>
                         </div>
                     </div>
                     <div class="col-4">
                         <div class="social-media-handle">
-                            <a class="search-link" href=""><i class="fa-brands fa-reddit fa-4x"
-                                    style="color: #f74300;"></i></a>
+                            <a class="search-link" href="https://www.netflix.com/in/">
+                                <img src="https://static.vecteezy.com/system/resources/previews/006/874/233/original/netflix-logo-icon-on-white-background-free-vector.jpg" height="60px" alt="">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -126,8 +126,8 @@
 
 
         <div class="price-header">
-            <h2 class="price-heading">Go premium with you searches.</h2>
-            <p>Helps you get more specific with your interests.</p>
+            <h2 class="price-heading">Be a Member</h2>
+            <span><p>Get notified everytime a new episode launches</p></span>
         </div>
         <div class="tagged">
             <div class=" row row-cols-1 row-cols-md-3 mb-3 text-center">
@@ -139,9 +139,9 @@
                         <div class="card-body">
                             <div class="card-bd">
                                 <h2>Free</h2>
-                                <p>3 keywords/search.</p>
-                                <p>Surveys latest 500.</p>
-                                <p>Contains Adss.</p>
+                                <p>Only in Japanese and English</p>
+                                <p>Limited Manga Collection</p>
+                                <p>Max Quality : 1080p</p>
                                 <button type="button" class="pricing-btn w-100 btn btn-lg btn-outline-light">Sign
                                     up</button>
                             </div>
@@ -156,9 +156,9 @@
                         <div class="card-body">
                             <div class="card-bd">
                                 <h2>49$/year</h2>
-                                <p>8 keywords/search.</p>
-                                <p>Surveys latest 2500.</p>
-                                <p>No Ads.</p>
+                                <p>Unlock full Manga Collection</p>
+                                <p>Faster Connection</p>
+                                <p>Max Quality : 2K</p>
                                 <button type="button" class="pricing-btn w-100 btn btn-lg btn-outline-light">Sign
                                     up</button>
                             </div>
@@ -173,10 +173,10 @@
                         <div class="card-body">
                             <div class="card-bd">
                                 <h2>$79/year</h2>
-                                <p>Unlimited Keywords</p>
-                                <p>Unlimited surveys</p>
-                                <p>Can be set in user specific time span</p>
-                                <p>No Ads</p>
+                                <p>Available in several languages</p>
+                                <p>Watch episodes before others</p>
+                                <p>Premium Connection</p>
+                                <p>Maximum Quality : 4K</p>
                                 <button type="button" class="pricing-btn w-100 btn btn-lg btn-outline-light">Sign
                                     up</button>
                             </div>
@@ -195,17 +195,17 @@
         <div class="footer-contact-links1">
             <h2 class="contact">Contact us</h2>
             <div class="footer-contact-links">
-                <a class="footer-link" href="https://twitter.com/RudreshPandey_"><i class="stamps fa-brands fa-twitter fa-lg"
+                <a class="footer-link" href="https://twitter.com/"><i class="stamps fa-brands fa-twitter fa-lg"
                         style="color: #2d2d2d;"></i></a>
-                <a class="footer-link" href="https://www.linkedin.com/in/rudresh-pandey-45b35524b/"><i
+                <a class="footer-link" href="https://www.linkedin.com/in/udit-sharma-b17058245/"><i
                         class="fa-brands fa-linkedin" style="color: #2d2d2d;"></i></a>
-                <a class="footer-link" href="https://www.instagram.com/rudreshpandey_/"> <i
+                <a class="footer-link" href="https://www.instagram.com/hellouditt/"> <i
                         class="fa-lg stamps fa-brands fa-instagram" style="color: #2d2d2d;"></i></a>
                 <a class="footer-link" href=""><i class="stamps fa-solid fa-envelope fa-lg"
                         style="color: #2d2d2d;"></i></a>
             </div>
         </div>
-        <p>© Copyright 2023 Kranti</p>
+        <p>&bigstar;&bigstar;&bigstar;</p>
 
     </footer>
 </body>

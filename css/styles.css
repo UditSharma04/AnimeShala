@@ -12,14 +12,18 @@ h1{
 }
 
 h3{
+    color: white;
     text-align: center;
     font-family: Ubuntu;
     padding:1.5%;
 }
+/* .container {
+    size: 1000cm;
+} */
 .container-fluid{
     background-position: center;
     background-size:cover;
-    background-image: url('https://media4.giphy.com/media/BHNfhgU63qrks/giphy.gif?cid=ecf05e47s0vi3n4uyu2gxwo86mrddg2dcetnixu5qsq5aojb&ep=v1_gifs_search&rid=giphy.gif&ct=g');
+    background-image: url('https://img.freepik.com/free-photo/cartoon-lofi-young-manga-style-girl-studying-while-listening-music-raining-street-ai-generative_123827-24916.jpg?t=st=1692711050~exp=1692714650~hmac=a1227a85b11f61850b4b897af91a862f16acf8971fd73decae185009cba8d3b2&w=996');
 }
 .btn-bg-grad{
     background-position: center;
@@ -80,11 +84,11 @@ h3{
 .price-header{
     font-size: 1.5rem;
     background-position: center;
-    background-size:cover;
-    background-image:url('https://i.giphy.com/media/2tNvsKkc0qFdNhJmKk/giphy.webp');
+    background-size:auto;
+    background-image:url('https://media4.giphy.com/media/BHNfhgU63qrks/giphy.gif?cid=ecf05e47cjkn70bxdp3vaopqteflmsrsc6t2tsi73t37d8gk&ep=v1_gifs_search&rid=giphy.gif&ct=g');
 }
 .price-heading{
-    color:#002244;
+    color:white;
     font-size: 3rem;
     padding-bottom: 2%;
     font-family:'Monserrat';
@@ -108,12 +112,12 @@ h3{
 .premium{
     background-size:cover;
     background-position:center;
-    background-image:url('https://media0.giphy.com/media/8w61HSu6xQjoa2NzKN/200w.webp?cid=ecf05e471m84nw9my6k2wutnpkx40c1ax7ojy8jbbsodeou5&ep=v1_gifs_search&rid=200w.webp&ct=g');
+    background-image:url('https://img.freepik.com/free-vector/golden-sparkling-frame-black-background_52683-22155.jpg?w=996&t=st=1692714036~exp=1692714636~hmac=276dcb3c0be63355aadd193b02ae9516f4fe14fed80cf526dc514e488c9a6f6b');
 }
 .Gold{
     background-size:cover;
     background-position:center;
-    background-image:url('https://img.freepik.com/free-vector/gradient-golden-linear-background_52683-62246.jpg?w=1380&t=st=1692668640~exp=1692669240~hmac=ce84e8384a1b9e5c87b39ff3eb3555b7079642155b060409de4d97f0b0705f6e');
+    background-image:url('https://img.freepik.com/free-vector/realistic-luxury-background_23-2149337097.jpg?w=996&t=st=1692714699~exp=1692715299~hmac=7a6b9e0ca410795b0bfb017d10eb84b5255982ae0e2edcd88a1ca7f302d4d1fe');
 }
 .card-bd{
     height:254px;
@@ -159,4 +163,7 @@ background-image: url('https://i.giphy.com/media/2tNvsKkc0qFdNhJmKk/giphy.webp')
 .contact{    color:#002244;
 
 
+}
+span {
+    color: yellowgreen;
 }
